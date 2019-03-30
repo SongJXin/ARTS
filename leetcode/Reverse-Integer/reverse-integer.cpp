@@ -23,10 +23,10 @@ public:
 		result = result * 10 + inter.front();
 		inter.pop();
 		if (inter.size() == 1) {
-			if (result > 214748364 || result < -214748364) {
+			if (result > 214748364) {
 				return 0;
 			}
-			else if (result == 214748364 || result == -214748364) {
+			else if (result == 214748364) {
 				if (minus && inter.front() >= 8) {
 					return 0;
 				}
