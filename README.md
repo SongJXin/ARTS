@@ -23,3 +23,4 @@
 [第0周 =-= two-sum =-= swagger2.0翻译 =-= go-restful生成swagger2.0文档](post/第0周.md)  
 [第1周 =-= Reverse-Integer =-= 微软提供针对专利流氓的保护 =-= jumpserver搭建](post/第1周.md)  
 [第2周 =-= Palindrome-Number =-= python语法 =-= ubuntu挂载新磁盘](post/第2周.md)
+[第3周 =-= Roman-to-Integer =-= 使用python的8个陋习 =-= ubuntu安装microk8s](post/第3周.md)
