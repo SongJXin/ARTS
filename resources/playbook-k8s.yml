@@ -1,0 +1,90 @@
+---
+- hosts: all
+  tasks:
+  - name: install docker
+    apt:
+      name: docker.io
+      update_cache: true
+      state: present
+  - name: copy hosts
+    copy:
+      src: /etc/hosts
+      dest: /etc/hosts
+  - name: install python-pip
+    apt:
+      name: python-pip
+      update_cache: true
+      state: present
+  - name: eidt ipv4 forward file
+    lineinfile:
+      path: /etc/sysctl.conf
+      line: "net.ipv4.ip_forward = 1"
+      state: present
+  - name: open ipv4 forward
+    shell: sysctl -p
+  - name: close swap
+    shell: swapoff -a
+  - name: touch k8s.conf
+    file:
+      path: /etc/sysctl.d/k8s.conf
+      state: touch
+  - name: edit iptables file net.bridge.bridge-nf-call-ip6tables
+    lineinfile:
+      path: /etc/sysctl.d/k8s.conf
+      line: "net.bridge.bridge-nf-call-ip6tables = 1"
+      state: present
+  - name: edit iptables file net.bridge.bridge-nf-call-iptables
+    lineinfile:
+      path: /etc/sysctl.d/k8s.conf
+      line: net.bridge.bridge-nf-call-iptables = 1
+      state: present
+  - name: apply iptables
+    shell: sysctl --system
+  - name: install curl
+    apt:
+      name: "{{ item }}"
+      state: present
+    with_items:
+    - 'kubelet=1.14.1-00'
+    - 'kubectl=1.14.1-00'
+    - 'kubeadm=1.14.1-00'
+  - name: hold kubelet kubeadm kubectl
+    shell: apt-mark hold kubelet=1.14.1-00 kubeadm=1.14.1-00 kubectl=1.14.1-00
+  - name: pip install docker-py
+    pip:
+      name:  docker-py
+      state: present
+  - name: install python-notario
+    pip:
+      name: notario
+      state: present
+  - name: docker pull kube-apiserver
+    docker_image:
+      name: s7799653/kube-apiserver:v1.14.1
+      repository: k8s.gcr.io/kube-apiserver:v1.14.1
+  - name: docker pull kube-controller-manager
+    docker_image:
+      name: s7799653/kube-controller-manager:v1.14.1
+      repository: k8s.gcr.io/kube-controller-manager:v1.14.1
+  - name: docker pull kube-scheduler
+    docker_image:
+      name: s7799653/kube-scheduler:v1.14.1
+      repository: k8s.gcr.io/kube-scheduler:v1.14.1
+  - name: docker pull kube-proxy
+    docker_image:
+      name: s7799653/kube-proxy:v1.14.1
+      repository: k8s.gcr.io/kube-proxy:v1.14.1
+  - name: docker pull pause
+    docker_image:
+      name: s7799653/pause:3.1
+      repository: k8s.gcr.io/pause:3.1
+  - name: docker pull etcd
+    docker_image:
+      name: s7799653/etcd:3.3.10
+      repository: k8s.gcr.io/etcd:3.3.10
+  - name: docker pull coredns
+    docker_image:
+      name: s7799653/coredns:1.3.1
+      repository: k8s.gcr.io/coredns:1.3.1
+  - name: enable docker service
+    shell: systemctl enable docker.service
