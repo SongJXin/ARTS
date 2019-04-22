@@ -1,4 +1,4 @@
-# kubeadm install k8s_v1.14.1
+# kubeadm install k8s_v1.14.1 and ceph luminous
 
 ## 综述
 
