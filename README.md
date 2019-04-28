@@ -18,9 +18,24 @@
 
 因为写作是一种非常重要的技能，写作不仅仅可以帮你组织你的思路和语言，帮你梳理你的知识，更重要的是写作其实是一种自己对自己的思考，同时还可以很容易地扩散并引入其它人的讨论、指正、批评，这对个人来说是非常重要的。
 
+## 合集
+
+[algorithm合集](collection/algorithms.md)  
+  
+[review合集](collection/reviews.md)  
+  
+[tip合集](collection/tips.md)  
+  
+[share合集](collection/shares.md)
+
 ## 文章
 
-[第0周 =-= two-sum =-= swagger2.0翻译 =-= go-restful生成swagger2.0文档](post/第0周.md)  
-[第1周 =-= Reverse-Integer =-= 微软提供针对专利流氓的保护 =-= jumpserver搭建](post/第1周.md)  
-[第2周 =-= Palindrome-Number =-= python语法 =-= ubuntu挂载新磁盘](post/第2周.md)
-[第3周 =-= Roman-to-Integer =-= 使用python的8个陋习 =-= ubuntu安装microk8s](post/第3周.md)
+[第1周 =-= two-sum =-= swagger2.0翻译 =-= go-restful生成swagger2.0文档](post/第1周.md)  
+  
+[第2周 =-= Reverse-Integer =-= 微软提供针对专利流氓的保护 =-= jumpserver搭建](post/第2周.md)  
+  
+[第3周 =-= Palindrome-Number =-= python语法 =-= ubuntu挂载新磁盘](post/第3周.md)  
+  
+[第4周 =-= Roman-to-Integer =-= 使用python的8个陋习 =-= ubuntu安装microk8s](post/第4周.md)  
+  
+[第5周 =-= Add-Two-Number =-= 在苹果和高通达成协议后，因特尔退出5G调制解调器的开发 =-= k8s搭建](post/第5周.md)
