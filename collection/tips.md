@@ -82,3 +82,9 @@ setsebool -P rsync_full_access on
 sudo gitlab-rake cache:clear
 ```
 参考[Gitlab returns “No Repository” even though the repository exists in the git_data_dirs path(s)](https://stackoverflow.com/questions/51179946/gitlab-returns-no-repository-even-though-the-repository-exists-in-the-git-data?tdsourcetag=s_pctim_aiomsg)
+
+## 第6周
+
+### string截取字串。
+
+在java中`substring(begin,end)`, `begin`为开始下标，`end`为结束下标，而 C++ 、 C# 中 `substring(begin,number)`为从`begin`开始截取`number`个。

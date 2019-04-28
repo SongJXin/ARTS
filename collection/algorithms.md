@@ -19,3 +19,7 @@
 ## 第5周
 
 [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
+
+## 第6周
+
+[longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
