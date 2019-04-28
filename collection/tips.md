@@ -1,13 +1,13 @@
 # Tips Collection
 
-## 第0周
+## 第1周
 
 蓝灯自定义白名单（公司内网域名不使用代理服务器）：设置 -> 网络和Internet -> 代理 -> 手动设置代理  
 > 请勿对以下条目开头的地址使用代理服务器。  
 
 填入白名单的地址即可
 
-## 第1周
+## 第2周
 
 ### kvm安装虚拟机时提示权限问题
 
@@ -49,13 +49,13 @@ ceph osd pool set cephfs_data pg_num 56
 ceph osd pool set cephfs_data pgp_num 56
 ```
 
-## 第2周
+## 第3周
 
 ### python3 的 除法
 
 在python3中 `3/2`的结果是1.5（float）。如果想要像其他语言（如C++）一样得到一个整数。需要用两个除号如`3//2`
 
-## 第3周
+## 第4周
 
 ### 批量杀死进程
 
@@ -65,7 +65,7 @@ ps -ef|grep LOCAL=NO|grep -v grep|cut -c 9-15|xargs kill -9
 
 alias kubectl=microk8s.kubectl
 
-## 第4周
+## 第5周
 
 ### rsync同步文件失败 chdir failed
 
