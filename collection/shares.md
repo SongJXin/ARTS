@@ -23,3 +23,7 @@
 [kubernetes使用ceph作为存储](http://songjxin.cn/?p=645)、[简书](https://www.jianshu.com/p/48a66f1db299)、[CSDN](https://blog.csdn.net/s7799653/article/details/89360168)  
   
 [安装helm](http://songjxin.cn/?p=648)、[简书](https://www.jianshu.com/p/bef756fd436d)、[CSDN](https://blog.csdn.net/s7799653/article/details/89360258)
+
+## 第6周
+
+[下载 k8s.gcr.io等仓库的镜像](http://songjxin.cn/?p=653)
