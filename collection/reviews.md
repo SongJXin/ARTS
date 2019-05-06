@@ -23,3 +23,7 @@
 ## 第6周
 
 [Python for VSCode获取变量和数据资源管理器](https://devblogs.microsoft.com/python/python-in-visual-studio-code-april-2019-release/)
+
+## 第7周
+
+[Azure提供区块链和无代码机器学习服务](https://arstechnica.com/gadgets/2019/05/ahead-of-build-azure-adds-more-machine-learning-and-blockchain/)

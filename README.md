@@ -38,6 +38,9 @@
   
 [第4周 =-= Roman-to-Integer =-= 使用python的8个陋习 =-= ubuntu安装microk8s](post/第4周.md)  
   
-[第5周 =-= Add-Two-Number =-= 在苹果和高通达成协议后，因特尔退出5G调制解调器的开发 =-= k8s搭建](post/第5周.md)
-
-[第6周 =-= Longest-Substring-Without-Repeating-Characters =-= Python for VSCode获取变量和数据资源管理器 =-= 下载 k8s.gcr.io等仓库的镜像](post/第6周.md)
+[第5周 =-= Add-Two-Number =-= 在苹果和高通达成协议后，因特尔退出5G调制解调器的开发 =-= k8s搭建](post/第5周.md)  
+  
+[第6周 =-= Longest-Substring-Without-Repeating-Characters =-= Python for VSCode获取变量和数据资源管理器 =-= 下载 k8s.gcr.io等仓库的镜像](post/第6周.md)  
+  
+[第7周 =-= longest-common-prefix =-= Azure提供区块链和无代码机器学习服务 =-= ](post/第7周.md)  
+  

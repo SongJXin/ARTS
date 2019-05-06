@@ -23,3 +23,7 @@
 ## 第6周
 
 [longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+## 第7周
+
+[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)

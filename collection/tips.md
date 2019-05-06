@@ -88,3 +88,9 @@ sudo gitlab-rake cache:clear
 ### string截取字串。
 
 在java中`substring(begin,end)`, `begin`为开始下标，`end`为结束下标，而 C++ 、 C# 中 `substring(begin,number)`为从`begin`开始截取`number`个。
+
+## 第7周
+
+### ceph-deploy添加osd
+
+for i in {d..l};do ceph-deploy --overwrite-conf osd create --data /dev/sd$i --bluestore 10.110.25.196; done
