@@ -42,5 +42,5 @@
   
 [第6周 =-= Longest-Substring-Without-Repeating-Characters =-= Python for VSCode获取变量和数据资源管理器 =-= 下载 k8s.gcr.io等仓库的镜像](post/第6周.md)  
   
-[第7周 =-= longest-common-prefix =-= Azure提供区块链和无代码机器学习服务 =-= ](post/第7周.md)  
+[第7周 =-= longest-common-prefix =-= Azure提供区块链和无代码机器学习服务 =-= centos install vagrant with kvm](post/第7周.md)  
   

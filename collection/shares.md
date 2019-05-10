@@ -27,3 +27,7 @@
 ## 第6周
 
 [下载 k8s.gcr.io等仓库的镜像](http://songjxin.cn/?p=653)
+
+## 第7周
+
+[centos install vagrant with kvm](http://songjxin.cn/?p=659),[简书](https://www.jianshu.com/p/78d57a95f5bb),[csdn](https://blog.csdn.net/s7799653/article/details/89955542)
