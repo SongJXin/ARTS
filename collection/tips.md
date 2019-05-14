@@ -94,3 +94,15 @@ sudo gitlab-rake cache:clear
 ### ceph-deploy添加osd
 
 for i in {d..l};do ceph-deploy --overwrite-conf osd create --data /dev/sd$i --bluestore 10.110.25.196; done
+
+## 第8周
+
+### 为sa绑定image pull secret
+
+kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "myregistrykey"}]}'
+
+### jenkins 时区(pod)
+        env:
+        - name: JAVA_OPTS
+          value: -Duser.timezone=Asia/Shanghai -Xms256m -Xmx1024m
+

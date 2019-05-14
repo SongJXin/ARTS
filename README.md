@@ -44,3 +44,4 @@
   
 [第7周 =-= longest-common-prefix =-= Azure提供区块链和无代码机器学习服务 =-= centos install vagrant with kvm](post/第7周.md)  
   
+[第8周 =-= Valid Parentheses =-= 集群联邦（多集群） =-= kubernetes 使用 nfs作为存储](post/第8周.md)  

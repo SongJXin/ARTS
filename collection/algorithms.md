@@ -27,3 +27,7 @@
 ## 第7周
 
 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+
+## 第8周
+
+[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)

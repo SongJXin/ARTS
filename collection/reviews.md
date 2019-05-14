@@ -27,3 +27,7 @@
 ## 第7周
 
 [Azure提供区块链和无代码机器学习服务](https://arstechnica.com/gadgets/2019/05/ahead-of-build-azure-adds-more-machine-learning-and-blockchain/)
+
+## 第8周
+
+[集群联邦（多集群）](https://medium.com/condenastengineering/k8s-federation-v2-a-guide-on-how-to-get-started-ec9cc26b1fa7)

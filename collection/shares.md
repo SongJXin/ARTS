@@ -31,3 +31,7 @@
 ## 第7周
 
 [centos install vagrant with kvm](http://songjxin.cn/?p=659),[简书](https://www.jianshu.com/p/78d57a95f5bb),[csdn](https://blog.csdn.net/s7799653/article/details/89955542)
+
+## 第8周
+
+[kubernetes 使用 nfs作为存储](http://songjxin.cn/?p=662),[简书](https://www.jianshu.com/p/908d24fef522),[CSDN](https://blog.csdn.net/s7799653/article/details/90167570)
