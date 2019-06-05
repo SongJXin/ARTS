@@ -164,7 +164,7 @@ stages:
 example-sonar:
   stage: scanner
   tags:
-    - testcenter-sjx
+    - ****
   image: stable.icp:8500/testcenter/maven:3.6.1-jdk-8
   script:
     - mvn test
@@ -186,6 +186,7 @@ example-sonar:
 
 修改：
 
+* tags 在创建gitlab runner时所输入的tags
 * image  maven+jdk的即可
 * sonarqubeurl  sonarqube的地址
 * sonar.login   登陆 sonarqube网页->login with gitlab -> 右上角自己的姓->My Account -> Security -> Generate Tokens
