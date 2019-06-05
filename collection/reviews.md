@@ -31,3 +31,7 @@
 ## 第8周
 
 [集群联邦（多集群）](https://medium.com/condenastengineering/k8s-federation-v2-a-guide-on-how-to-get-started-ec9cc26b1fa7)
+
+## 第9周
+
+[ingress介绍](https://kubernetes.io/docs/concepts/services-networking/ingress/)

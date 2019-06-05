@@ -106,3 +106,8 @@ kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "myregis
         - name: JAVA_OPTS
           value: -Duser.timezone=Asia/Shanghai -Xms256m -Xmx1024m
 
+## 第9周
+
+### ceph Error EINVAL: key for client.bootstrap-osd exists but cap mon does not match
+
+/var/lib/ceph 删除对应的key
