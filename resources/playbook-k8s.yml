@@ -40,7 +40,21 @@
       state: present
   - name: apply iptables
     shell: sysctl --system
-  - name: install curl
+  - name: install curl and apt-transport-https
+    apt:
+      name: "{{ item }}"
+      state: present
+    with_items:
+    - 'curl'
+    - 'apt-transport-https'
+  - name: add ali key
+    shell: "curl -s https://mirrors.aliyun.com/kubernetes/apt/doc/apt-key.gpg | sudo apt-key add -"
+  - name: ali repo
+    shell: echo "deb https://mirrors.aliyun.com/kubernetes/apt kubernetes-xenial main">>/etc/apt/sources.list.d/kubernetes.list
+  - name: apt update
+    shell: apt-get update
+
+  - name: install kube
     apt:
       name: "{{ item }}"
       state: present
