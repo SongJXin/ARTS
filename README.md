@@ -47,4 +47,7 @@
 [第8周 =-= Valid Parentheses =-= 集群联邦（多集群） =-= kubernetes 使用 nfs作为存储](post/第8周.md)  
   
 [第9周 =-= Merge Two Sorted Lists =-= ingress介绍 =-= ingress介绍（翻译）](post/第9周.md)  
+
+
+[kuberenetes release](kubernetes-release/release/stable-1.8.txt)
   
